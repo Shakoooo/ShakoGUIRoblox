@@ -239,6 +239,7 @@ OpenGUI.Text = "Open"
 OpenGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenGUI.TextSize = 19.000
 OpenGUI.Visible = true
+OpenGUI.Active = true
 
 
 -- Scripts:
