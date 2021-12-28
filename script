@@ -1,0 +1,258 @@
+-- Made by Shako#7960
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Titre = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local InfiniteYield = Instance.new("TextButton")
+local CMDX = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
+local NaturalDisasterSurvival = Instance.new("TextButton")
+local Nexus = Instance.new("TextButton")
+local SharkBite = Instance.new("TextButton")
+local NinjaLegends = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local LegendsOfSpeed = Instance.new("TextButton")
+local DomainX = Instance.new("TextButton")
+local FeTrollingScript = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local OpenGUI = Instance.new("TextButton")
+
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.239761725, 0, 0.450306743, 0)
+Frame.Size = UDim2.new(0, 447, 0, 242)
+Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true
+
+Titre.Name = "Titre"
+Titre.Parent = Frame
+Titre.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Titre.Size = UDim2.new(0, 447, 0, 25)
+Titre.Font = Enum.Font.SciFi
+Titre.Text = "Shako"
+Titre.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titre.TextSize = 22.000
+
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.Position = UDim2.new(0, 0, 0.896655858, 0)
+Credits.Size = UDim2.new(0, 447, 0, 25)
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "Made by Shako#7960"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 14.000
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.Position = UDim2.new(0, 0, 0.103305787, 0)
+InfiniteYield.Size = UDim2.new(0, 223, 0, 32)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = Frame
+CMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.Position = UDim2.new(0.498881429, 0, 0.103305787, 0)
+CMDX.Size = UDim2.new(0, 224, 0, 32)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.TextSize = 14.000
+CMDX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = Frame
+DarkHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.Position = UDim2.new(-3.7252903e-09, 0, 0.235537186, 0)
+DarkHub.Size = UDim2.new(0, 224, 0, 32)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextSize = 14.000
+DarkHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://darkhub.xyz/remote-script.lua", true))()
+end)
+
+
+OwlHub.Name = "Owl Hub"
+OwlHub.Parent = Frame
+OwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.Position = UDim2.new(0.498881429, 0, 0.235537186, 0)
+OwlHub.Size = UDim2.new(0, 224, 0, 32)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.TextSize = 14.000
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+
+NaturalDisasterSurvival.Name = "Natural Disaster Survival"
+NaturalDisasterSurvival.Parent = Frame
+NaturalDisasterSurvival.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NaturalDisasterSurvival.Position = UDim2.new(2.42143869e-08, 0, 0.5, 0)
+NaturalDisasterSurvival.Size = UDim2.new(0, 224, 0, 32)
+NaturalDisasterSurvival.Font = Enum.Font.SourceSans
+NaturalDisasterSurvival.Text = "Natural Disaster Survival"
+NaturalDisasterSurvival.TextColor3 = Color3.fromRGB(0, 0, 0)
+NaturalDisasterSurvival.TextSize = 14.000
+NaturalDisasterSurvival.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetweg", true))()
+end)
+
+Nexus.Name = "Nexus"
+Nexus.Parent = Frame
+Nexus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nexus.Position = UDim2.new(0.498881459, 0, 0.5, 0)
+Nexus.Size = UDim2.new(0, 224, 0, 32)
+Nexus.Font = Enum.Font.SourceSans
+Nexus.Text = "Nexus ( Prison Life )"
+Nexus.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nexus.TextSize = 14.000
+Nexus.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end)
+
+
+SharkBite.Name = "SharkBite"
+SharkBite.Parent = Frame
+SharkBite.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SharkBite.Position = UDim2.new(2.98023224e-08, 0, 0.632231414, 0)
+SharkBite.Size = UDim2.new(0, 224, 0, 32)
+SharkBite.Font = Enum.Font.SourceSans
+SharkBite.Text = "SharkBite"
+SharkBite.TextColor3 = Color3.fromRGB(0, 0, 0)
+SharkBite.TextSize = 14.000
+SharkBite.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/SharkBite.lua",true))()
+end)
+
+
+NinjaLegends.Name = "Ninja Legends"
+NinjaLegends.Parent = Frame
+NinjaLegends.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NinjaLegends.Position = UDim2.new(0.498881459, 0, 0.632231414, 0)
+NinjaLegends.Size = UDim2.new(0, 224, 0, 32)
+NinjaLegends.Font = Enum.Font.SourceSans
+NinjaLegends.Text = "Ninja Legends"
+NinjaLegends.TextColor3 = Color3.fromRGB(0, 0, 0)
+NinjaLegends.TextSize = 14.000
+NinjaLegends.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()
+end)
+
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Frame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(2.98023224e-08, 0, 0.760330558, 0)
+Arsenal.Size = UDim2.new(0, 224, 0, 32)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+end)
+
+
+LegendsOfSpeed.Name = "Legends Of Speed"
+LegendsOfSpeed.Parent = Frame
+LegendsOfSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LegendsOfSpeed.Position = UDim2.new(0.4988814, 0, 0.760330558, 0)
+LegendsOfSpeed.Size = UDim2.new(0, 224, 0, 32)
+LegendsOfSpeed.Font = Enum.Font.SourceSans
+LegendsOfSpeed.Text = "Legends Of Speed"
+LegendsOfSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+LegendsOfSpeed.TextSize = 14.000
+LegendsOfSpeed.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Shakoooo/Legends-Of-Speed/main/script"))()	
+end)
+
+
+DomainX.Name = "Domain-X"
+DomainX.Parent = Frame
+DomainX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DomainX.Position = UDim2.new(0, 0, 0.367768586, 0)
+DomainX.Size = UDim2.new(0, 223, 0, 32)
+DomainX.Font = Enum.Font.SourceSans
+DomainX.Text = "Domain-X"
+DomainX.TextColor3 = Color3.fromRGB(0, 0, 0)
+DomainX.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexsoftworks/DomainX/main/source',true))()
+end)
+
+
+FeTrollingScript.Name = "Fe Trolling Script"
+FeTrollingScript.Parent = Frame
+FeTrollingScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeTrollingScript.Position = UDim2.new(0.498881429, 0, 0.367768586, 0)
+FeTrollingScript.Size = UDim2.new(0, 224, 0, 32)
+FeTrollingScript.Font = Enum.Font.SourceSans
+FeTrollingScript.Text = "FE Troll Script"
+FeTrollingScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeTrollingScript.TextSize = 14.000
+FeTrollingScript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.Position = UDim2.new(0.955257297, 0, 0, 0)
+Close.Size = UDim2.new(0, 20, 0, 19)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextSize = 14.000
+
+
+OpenGUI.Name = "OpenGUI"
+OpenGUI.Parent = ScreenGui
+OpenGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenGUI.Position = UDim2.new(0, 0, 0.480981588, 0)
+OpenGUI.Size = UDim2.new(0, 143, 0, 31)
+OpenGUI.Font = Enum.Font.GothamBold
+OpenGUI.Text = "Open"
+OpenGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenGUI.TextSize = 19.000
+
+-- Scripts:
+
+local function NFATOIO_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.Parent.Close.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame.Visible = false
+	end)
+end
+coroutine.wrap(NFATOIO_fake_script)()
+local function BXHAN_fake_script() -- OpenGUI.LocalScript 
+	local script = Instance.new('LocalScript', OpenGUI)
+
+	script.Parent.Parent.OpenGUI.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(BXHAN_fake_script)()
