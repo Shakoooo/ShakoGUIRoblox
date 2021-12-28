@@ -213,7 +213,7 @@ FeTrollingScript.Text = "FE Troll Script"
 FeTrollingScript.TextColor3 = Color3.fromRGB(0, 0, 0)
 FeTrollingScript.TextSize = 14.000
 FeTrollingScript.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Shakoooo/ShakoGUIRoblox/main/script'),true))()
 end)
 
 
@@ -226,7 +226,6 @@ Close.Font = Enum.Font.SourceSans
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 0, 0)
 Close.TextSize = 14.000
-Close.Active = true
 
 
 OpenGUI.Name = "OpenGUI"
@@ -238,7 +237,7 @@ OpenGUI.Font = Enum.Font.GothamBold
 OpenGUI.Text = "Open"
 OpenGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenGUI.TextSize = 19.000
-OpenGUI.Active = true
+
 -- Scripts:
 
 local function NFATOIO_fake_script() -- Close.LocalScript 
