@@ -257,4 +257,3 @@ local function BXHAN_fake_script() -- OpenGUI.LocalScript
 	end)
 end
 coroutine.wrap(BXHAN_fake_script)()
-end)
