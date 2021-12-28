@@ -227,7 +227,9 @@ Close.Font = Enum.Font.SourceSans
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 0, 0)
 Close.TextSize = 14.000
-
+OpenGUI.Visible = true
+OpenGUI.Active = true
+end)
 
 OpenGUI.Name = "OpenGUI"
 OpenGUI.Parent = ScreenGui
@@ -240,6 +242,7 @@ OpenGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenGUI.TextSize = 19.000
 OpenGUI.Visible = true
 OpenGUI.Active = true
+end)
 
 
 -- Scripts:
