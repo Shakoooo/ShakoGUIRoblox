@@ -259,4 +259,3 @@ local function BXHAN_fake_script() -- OpenGUI.LocalScript
 		script.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(BXHAN_fake_script)()
